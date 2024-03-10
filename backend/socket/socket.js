@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: ["http://hood-0iw5.onrender.com"],
+		origin: ["http://localhost:1012"],
 		methods: ["GET", "POST"],
 	},
 });
